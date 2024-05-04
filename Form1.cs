@@ -48,7 +48,7 @@ namespace windows_form_bazanks
             convector = new Convector(double.Parse(tbNumber.Text));
             switch (cbxPressure.SelectedIndex)
             {
-                case 0: lResalt.Text = convector.toMmRtSt.ToString("F5") +
+                case 0: lResalt.Text = convector.toMmRtSt.ToString("F5") + ""
             }
         }
     }
